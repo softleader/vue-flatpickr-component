@@ -144,12 +144,12 @@ The component accepts these props:
 * Include required files
 ```html
 <!-- Flatpickr related files -->
-<link href="https://unpkg.com/flatpickr@3.0.7/dist/flatpickr.min.css" rel="stylesheet">
-<script src="https://unpkg.com/flatpickr@3.0.7/dist/flatpickr.min.js"></script>
+<link href="https://unpkg.com/flatpickr@3/dist/flatpickr.min.css" rel="stylesheet">
+<script src="https://unpkg.com/flatpickr@3/dist/flatpickr.min.js"></script>
 <!-- Vue js -->
 <script src="https://unpkg.com/vue@2.4/dist/vue.min.js"></script>
 <!-- Lastly add this package -->
-<script src="https://unpkg.com/vue-flatpickr-component"></script>
+<script src="https://unpkg.com/vue-flatpickr-component@3"></script>
 ```
 * Use the component anywhere in your app like this
 ```html
