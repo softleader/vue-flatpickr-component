@@ -17,6 +17,7 @@
 
   export default {
     name: 'flat-pickr',
+    inheritAttrs: false,
     props: {
       value: {
         default: null,
@@ -146,6 +147,18 @@
         this.fp &&
         // Notify flatpickr instance that there is a change in value
         this.fp.setDate(newValue, true);
+      },
+
+      /**
+       * Manually set element attributes
+       *
+       * @param newAttrs Object
+       */
+      $attrs(newAttrs) {
+        let input = this.fpInput();
+        Object.keys(newAttrs).map((name) => {
+          input.setAttribute(name, newAttrs[name]);
+        })
       }
     },
     /**
