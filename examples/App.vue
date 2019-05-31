@@ -31,6 +31,14 @@
           <form class="card card-body mb-3" method="post" action="/" @submit.prevent="submit()" novalidate>
 
             <div class="form-group">
+              <label>Select chronology datetime (minguo)</label>
+              <flat-pickr v-model="form.dataChrono"
+                          class="form-control"
+                          :config="configs.chrono">
+              </flat-pickr>
+            </div>
+
+            <div class="form-group">
               <label>Select date (basic)</label>
               <flat-pickr v-model="form.dateBasic"
                           class="form-control"
@@ -192,18 +200,19 @@
 
 <script>
   import Vue from 'vue';
-  import flatpickr from "flatpickr";
+  import flatpickr from "@softleader/flatpickr";
   // Init component
   import flatPickrComponent from '../src/index.js';
   // Need to add base css for flatpickr
-  import 'flatpickr/dist/flatpickr.min.css';
+  import '@softleader/flatpickr/dist/flatpickr.min.css';
   // l10n is optional
-  import {Hindi as HindiLocale} from 'flatpickr/dist/l10n/hi.js';
-  import {english as EnglishLocale} from 'flatpickr/dist/l10n/default.js'
+  import {Hindi as HindiLocale} from '@softleader/flatpickr/dist/l10n/hi.js';
+  import {MandarinTraditionalMinguo as MinguoLocale} from '@softleader/flatpickr/dist/l10n/zh-tw-minguo.js';
+  import {english as EnglishLocale} from '@softleader/flatpickr/dist/l10n/default.js'
   // Plugins are optional
   // https://chmln.github.io/flatpickr/plugins/
-  import ConfirmDatePlugin from 'flatpickr/dist/plugins/confirmDate/confirmDate.js';
-  import 'flatpickr/dist/plugins/confirmDate/confirmDate.css';
+  import ConfirmDatePlugin from '@softleader/flatpickr/dist/plugins/confirmDate/confirmDate.js';
+  import '@softleader/flatpickr/dist/plugins/confirmDate/confirmDate.css';
 
   // Override Global settings
   flatpickr.setDefaults({
@@ -218,6 +227,7 @@
       return {
         inputDisabled: false,
         form: {
+          dataChrono: null,
           dateBasic: null,
           dateTime: null,
           time: null,
@@ -231,6 +241,14 @@
           dateEnd: null,
         },
         configs: {
+          chrono: {
+            altInput: true,
+            altFormat: "C-m-d H:i",
+            locale: MinguoLocale,
+            enableTime: true,
+            allowInput: true,
+            dateFormat: "Y-m-d H:i"
+          },
           basic: {},
           wrap: {
             wrap: true,

@@ -1,4 +1,4 @@
-import Flatpickr from 'flatpickr';
+import Flatpickr from '@softleader/flatpickr';
 import {excludedEvents, includedEvents} from "./events.js";
 import {arrayify, camelToKebab, cloneObject} from "./util.js";
 // You have to import css yourself

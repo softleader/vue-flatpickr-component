@@ -105,7 +105,7 @@ This example is based on Bootstrap 4 [input group](https://getbootstrap.com/docs
   // try more themes at - https://chmln.github.io/flatpickr/themes/
   import 'flatpickr/dist/themes/material_blue.css';
   // localization is optional
-  import {Hindi} from 'flatpickr/dist/l10n/hi.js';
+  import {Hindi} from '@softleader/flatpickr/dist/l10n/hi.js';
   
   export default {
     name: 'yourComponent',

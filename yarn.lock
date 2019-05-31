@@ -688,6 +688,11 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@softleader/flatpickr@^4.5.1":
+  version "4.5.7"
+  resolved "http://ci.softleader.com.tw:4873/@softleader%2fflatpickr/-/flatpickr-4.5.7.tgz#e8dd991073a90e548aae055c6fbba60395cfa1b0"
+  integrity sha512-PEomyo2tzI3a52gq+yIFxAsbfl61PAecMj11FeTl8f+4FZtizouhwsMXRmFr9n8fY1km7IIqNkFvfFCgqweaVQ==
+
 "@vue/component-compiler-utils@^2.5.1":
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/@vue/component-compiler-utils/-/component-compiler-utils-2.5.2.tgz#a8d57e773354ab10e4742c7d6a8dd86184d4d7be"
@@ -2681,11 +2686,6 @@ findup-sync@^2.0.0:
     is-glob "^3.1.0"
     micromatch "^3.0.4"
     resolve-dir "^1.0.1"
-
-flatpickr@^4.5.1:
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/flatpickr/-/flatpickr-4.5.2.tgz#47c8ad472a096e5fb7e74b809b0703535383f20d"
-  integrity sha512-jDy4QYGpmiy7+Qk8QvKJ4spjDdxcx9cxMydmq1x427HkKWBw0qizLYeYM2F6tMcvvqGjU5VpJS55j4LnsaBblA==
 
 flush-write-stream@^1.0.0:
   version "1.0.3"
