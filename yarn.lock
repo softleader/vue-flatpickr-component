@@ -690,8 +690,8 @@
 
 "@softleader/flatpickr@^4.5.7":
   version "4.5.7"
-  resolved "http://ci.softleader.com.tw:4873/@softleader%2fflatpickr/-/flatpickr-4.5.7.tgz#4455074457f291f2b7ac1a46a1c4c316934acdaa"
-  integrity sha512-axFpQ+unIJcZUWxuO7qyZRMzzExbHdpH8IgcdJKn0zRpA4DZmcfegHE89lJhvhGr+KRXSUfJEu8vmnfX9QT8dA==
+  resolved "http://ci.softleader.com.tw:4873/@softleader%2fflatpickr/-/flatpickr-4.5.7.tgz#4acea3dac1c2a481e586f69c9a3df1fdb6137304"
+  integrity sha512-vA8I+jy1yfYCzbleqjwyQLlY+Leb/oJwFzI2mtaiQZUnS9/ieD5Q8/0A+xeXGQSJ583WkbJ77pvKfqRCiISrEA==
 
 "@vue/component-compiler-utils@^2.5.1":
   version "2.5.2"
