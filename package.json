@@ -35,7 +35,7 @@
     "prepublishOnly": "yarn run test && yarn run build"
   },
   "dependencies": {
-    "@softleader/flatpickr": "^4.5.1"
+    "@softleader/flatpickr": "^4.5.7"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",

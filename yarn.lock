@@ -688,10 +688,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@softleader/flatpickr@^4.5.1":
+"@softleader/flatpickr@^4.5.7":
   version "4.5.7"
-  resolved "http://ci.softleader.com.tw:4873/@softleader%2fflatpickr/-/flatpickr-4.5.7.tgz#e8dd991073a90e548aae055c6fbba60395cfa1b0"
-  integrity sha512-PEomyo2tzI3a52gq+yIFxAsbfl61PAecMj11FeTl8f+4FZtizouhwsMXRmFr9n8fY1km7IIqNkFvfFCgqweaVQ==
+  resolved "http://ci.softleader.com.tw:4873/@softleader%2fflatpickr/-/flatpickr-4.5.7.tgz#4455074457f291f2b7ac1a46a1c4c316934acdaa"
+  integrity sha512-axFpQ+unIJcZUWxuO7qyZRMzzExbHdpH8IgcdJKn0zRpA4DZmcfegHE89lJhvhGr+KRXSUfJEu8vmnfX9QT8dA==
 
 "@vue/component-compiler-utils@^2.5.1":
   version "2.5.2"

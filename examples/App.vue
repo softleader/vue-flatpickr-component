@@ -247,7 +247,11 @@
             locale: MinguoLocale,
             enableTime: true,
             allowInput: true,
-            dateFormat: "Y-m-d H:i"
+            dateFormat: "Y-m-d H:i",
+            beforeSetDate: date => {
+              console.log("you can do a input mask here", date);
+              return date;
+            }
           },
           basic: {},
           wrap: {
